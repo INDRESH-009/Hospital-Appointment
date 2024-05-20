@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 180px;
+}
+nav ul li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin: 0px 12px;
+}
+#brand{
+    font-size: 25px;
+}
+nav button{
+    padding: 15px 30px;
+    color: white;
+    background-color: #51b9e2;
+    border: none;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 180px;
+}
+.content-left{
+    padding-top: 100px;
+    color: white;
+
+}
+.content-left h1{
+    font-size: 3rem;
+    padding-bottom: 30px;
+
+}
+.content-left p{
+    font: 1rem;
+    padding-bottom: 25px;
+}
+.content-left button{
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 30px;
+    border: none;
+    background-color: #4E9CBB;
+    color: white;
+}
+.content-left .learnmore{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.content-right form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+.form h2{
+    padding: 5px 5px 18px 0px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.form label,select{
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.form input,select{
+    margin-bottom: 20px;
+    padding: 5px 7px;
+    font-weight: lighter;
+    width: 290px;
+    background-color: #F9F6F6;
+    border: 1px solid #F9F6F6;
+}
+.form button{
+    background-color: #4E9CBB;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
